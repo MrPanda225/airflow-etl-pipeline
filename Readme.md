@@ -43,7 +43,7 @@ Each transformation lives in its own module with its own responsibility. Adding 
 ## Project structure
 
 ```
-airflow_train/
+airflow-etl-pipeline/
 |
 |-- dag.py                  The pipeline definition. Tells Airflow what to run and in what order.
 |
@@ -82,8 +82,8 @@ The pipeline runs on a schedule, retries on failure, and produces observable log
 
 ```bash
 # Clone and install
-git clone <your-repo-url>
-cd airflow_train
+git clone https://github.com/MrPanda225/airflow-etl-pipeline.git
+cd airflow-etl-pipeline
 pip install -r requirements.txt
 
 # Run the test suite
