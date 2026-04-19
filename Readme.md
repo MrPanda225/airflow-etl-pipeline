@@ -3,6 +3,8 @@
 A data engineering pipeline built with Apache Airflow and Python.  
 It downloads raw traffic toll data, extracts what matters, and delivers a clean, analysis-ready file — automatically, every day.
 
+![Pipeline overview](assets/pipeline_diagram.png)
+
 ---
 
 ## What it does
