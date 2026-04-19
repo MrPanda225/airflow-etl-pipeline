@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Airflow
+airflow.cfg
+airflow.db
+webserver_config.py
+logs/
+standalone_admin_password.txt
+
+# Staging data
+staging/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
